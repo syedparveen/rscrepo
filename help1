@@ -1,0 +1,29 @@
+hello..
+
+this is our local server..
+http://127.0.0.1:8000/
+
+step :1
+intitally we need to create a repo in our github..
+
+the repo name is : rscpro
+
+step 2:
+add remote repo name in the local git..
+cmd:
+
+
+git remote add anuremote https://github.com/koyaanusha/rscpro.git
+
+git remote -v # this is the cmd to get remote server repos..
+
+step 3:
+
+git status
+
+if there is any Untracked files:
+
+need to add it..
+
+cmd :
+git add file
